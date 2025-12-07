@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jishnu_image.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style="font-size: 0.87em; font-weight: bold;">Senior ML Engineer at ServiceNow</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Senior Machine Learning Engineer at [ServiceNow](https://www.servicenow.com/), working on reasoning in large language models and reinforcement learning for agentic systems. Most of my time goes into figuring out how to make LLMs better at complex decision-making and how multiple agents can work together on real-world enterprise problems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Broadly, I'm interested in **LLM reasoning**, **reinforcement learning**, **synthetic data generation**, **evaluation methods for generative AI**, and **agentic systems**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before this, I spent a few years building semantic search, enterprise-level clustering services, and NLP infrastructure at ServiceNow.
+
+I did my undergrad in Computer Science at [Government Model Engineering College, Kochi](https://mec.ac.in/).
+
+For updated details, see my [Google Scholar](https://scholar.google.com/citations?user=6OejeQUAAAAJ&hl=en) / [LinkedIn](https://www.linkedin.com/in/thejishnunair/) / [GitHub](https://github.com/thejishnunair) pages.
