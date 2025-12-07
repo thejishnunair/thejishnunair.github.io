@@ -27,7 +27,7 @@ latest_posts:
 
 I am a Senior Machine Learning Engineer at [ServiceNow](https://www.servicenow.com/), working on reasoning in large language models and reinforcement learning for agentic systems. Most of my time goes into figuring out how to make LLMs better at complex decision-making and how multiple agents can work together on real-world enterprise problems.
 
-Broadly, I'm interested in **LLM reasoning**, **reinforcement learning**, **synthetic data generation**, **evaluation methods for generative AI**, and **agentic systems**.
+Broadly, I'm interested in **training reasoning models**, **reinforcement learning for LLMs**, **synthetic data generation**, **building evaluation benchmarks for generative AI**, and **agentic systems**.
 
 Before this, I spent a few years building semantic search, enterprise-level clustering services, and NLP infrastructure at ServiceNow.
 
