@@ -1,6 +1,21 @@
 ---
 ---
 
+@misc{nair2026enterprisesystemsneedlearned,
+  abbr={arXiv},
+  title={Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics}, 
+  author={Sethumadhavan Nair, Jishnu and Bechard, Patrice and Maheshwary, Rishabh and Dasgupta, Surajit and Ramachandran, Sravan and Bhagat, Aakash and Radhakrishna, Shruthan and Pattnaik, Pulkit and Obando-Ceron, Johan and Malay, Shiva Krishna Reddy and Davasam, Sagar and Subramanian, Seganrasan and Mittal, Vipul and Nemala, Sridhar Krishna and Pal, Christopher and Sunkara, Srinivas and Rajeswar, Sai},
+  year={2026},
+  month={May},
+  eprint={2605.12178},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  arxiv={2605.12178},
+  bibtex_show={true},
+  selected={false},
+  abstract={World models enable agents to anticipate the effects of their actions by internalizing environment dynamics. In enterprise systems, however, these dynamics are often defined by tenant-specific business logic that varies across deployments and evolves over time, making models trained on historical transitions brittle under deployment shift. We ask a question the world-models literature has not addressed: when the rules can be read at inference time, does an agent still need to learn them? We argue, and demonstrate empirically, that in settings where transition dynamics are configurable and readable, runtime discovery complements offline training by grounding predictions in the active system instance. We propose enterprise discovery agents, which recover relevant transition dynamics at runtime by reading the system's configuration rather than relying solely on internalized representations. We introduce CascadeBench, a reasoning-focused benchmark for enterprise cascade prediction that adopts the evaluation methodology of World of Workflows on diverse synthetic environments, and use it together with deployment-shift evaluation to show that offline-trained world models can perform well in-distribution but degrade as dynamics change, whereas discovery-based agents are more robust under shift by grounding their predictions in the current instance. Our findings suggest that, in configurable enterprise environments, agents should not rely solely on fixed internalized dynamics, but should incorporate mechanisms for discovering relevant transition logic at runtime.}
+}
+
 @article{malay2026enterpriseopsgymenvironmentsevaluationsstateful,
   abbr={ICML},
   title={EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings}, 
